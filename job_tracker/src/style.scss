@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #242424;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 2opx;
+  div {
+    display: flex;
+    gap: 20px;
+    a {
+      font-size: 20px;
+      color: lightslategrey;
+      text-decoration: none;
+    }
+    .active {
+      text-shadow: 0 0 10px rgb(9, 104, 151);
+    }
+  }
+}
