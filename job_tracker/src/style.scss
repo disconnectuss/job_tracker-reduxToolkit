@@ -30,3 +30,46 @@ header {
     }
   }
 }
+.card {
+  background-color: rgb(85, 83, 83);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  .head {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    .letter {
+      background-color: white;
+      height: 60px;
+      width: 60px;
+      display: grid;
+      place-items: center;
+      color: black;
+      font-size: 30px;
+      border-radius: 10px 0 10px 0;
+    }
+    .info {
+      font-size: 20px;
+    }
+  }
+  .body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+    margin-top: 10px;
+    .field {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      .icon {
+        width: 24px;
+      }
+    }
+    .status {
+      padding: 10px 20px;
+      border-radius: 10px;
+      background-color: rgb(145, 145, 8);
+    }
+  }
+}
