@@ -2,14 +2,18 @@ import React from "react";
 import Header from "../components/Header";
 import JobCard from "../components/JobCard";
 
-
 const JobList = () => {
   return (
-    <>
-      <Header />
-      <JobCard />
-      <JobCard />
-    </>
+    <div>
+      <Header/>
+      <div className="list_section">
+        <JobCard />
+        <JobCard />
+        <JobCard />
+        <JobCard />
+        <JobCard />
+      </div>
+    </div>
   );
 };
 

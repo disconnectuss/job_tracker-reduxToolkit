@@ -30,6 +30,12 @@ header {
     }
   }
 }
+.list_section{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
 .card {
   background-color: rgb(85, 83, 83);
   border-radius: 10px;
