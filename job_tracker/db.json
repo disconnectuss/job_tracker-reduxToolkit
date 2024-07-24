@@ -1,0 +1,164 @@
+{
+    "jobs": [
+        {
+            "id": 345,
+            "company": "BetaSoft",
+            "location": "Copenhagen, Denmark",
+            "status": "Active",
+            "type": "on-site",
+            "date": "12/09/2024"
+        },
+        {
+            "id": 346,
+            "company": "Tech Solutions",
+            "location": "Copenhagen, Denmark",
+            "status": "Active",
+            "type": "remote",
+            "date": "29/04/2024"
+        },
+        {
+            "id": 347,
+            "company": "GammaCorp",
+            "location": "Goes, Netherlands",
+            "status": "Expired",
+            "type": "remote",
+            "date": "21/07/2024"
+        },
+        {
+            "id": 348,
+            "company": "DevHub",
+            "location": "Berlin, Germany",
+            "status": "Active",
+            "type": "on-site",
+            "date": "28/07/2024"
+        },
+        {
+            "id": 349,
+            "company": "DevHub",
+            "location": "Madrid, Spain",
+            "status": "Active",
+            "type": "remote",
+            "date": "29/07/2024"
+        },
+        {
+            "id": 350,
+            "company": "AlphaTech",
+            "location": "Goes, Netherlands",
+            "status": "Expired",
+            "type": "on-site",
+            "date": "12/06/2024"
+        },
+        {
+            "id": 351,
+            "company": "Emaartechs",
+            "location": "Oslo, Norway",
+            "status": "Active",
+            "type": "on-site",
+            "date": "14/05/2024"
+        },
+        {
+            "id": 352,
+            "company": "GammaCorp",
+            "location": "Berlin, Germany",
+            "status": "Expired",
+            "type": "hybrid",
+            "date": "26/10/2024"
+        },
+        {
+            "id": 353,
+            "company": "SoftWorks",
+            "location": "Oslo, Norway",
+            "status": "Active",
+            "type": "on-site",
+            "date": "07/03/2024"
+        },
+        {
+            "id": 354,
+            "company": "NetLabs",
+            "location": "Berlin, Germany",
+            "status": "Active",
+            "type": "remote",
+            "date": "20/04/2024"
+        },
+        {
+            "id": 355,
+            "company": "Innovatech",
+            "location": "Madrid, Spain",
+            "status": "Expired",
+            "type": "on-site",
+            "date": "09/09/2024"
+        },
+        {
+            "id": 356,
+            "company": "NetLabs",
+            "location": "Paris, France",
+            "status": "Active",
+            "type": "remote",
+            "date": "31/07/2024"
+        },
+        {
+            "id": 357,
+            "company": "GammaCorp",
+            "location": "Madrid, Spain",
+            "status": "Active",
+            "type": "remote",
+            "date": "06/10/2024"
+        },
+        {
+            "id": 358,
+            "company": "AlphaTech",
+            "location": "Goes, Netherlands",
+            "status": "Active",
+            "type": "remote",
+            "date": "14/05/2024"
+        },
+        {
+            "id": 359,
+            "company": "BetaSoft",
+            "location": "Copenhagen, Denmark",
+            "status": "Active",
+            "type": "on-site",
+            "date": "16/04/2024"
+        },
+        {
+            "id": 360,
+            "company": "SoftWorks",
+            "location": "Lisbon, Portugal",
+            "status": "Active",
+            "type": "hybrid",
+            "date": "06/06/2024"
+        },
+        {
+            "id": 361,
+            "company": "Innovatech",
+            "location": "Paris, France",
+            "status": "Active",
+            "type": "remote",
+            "date": "28/06/2024"
+        },
+        {
+            "id": 362,
+            "company": "GammaCorp",
+            "location": "Oslo, Norway",
+            "status": "Active",
+            "type": "hybrid",
+            "date": "19/07/2024"
+        },
+        {
+            "id": 363,
+            "company": "Innovatech",
+            "location": "Rome, Italy",
+            "status": "Active",
+            "type": "on-site",
+            "date": "09/09/2024"
+        },
+        {
+            "id": 364,
+            "company": "GammaCorp",
+            "location": "Paris, France",
+            "status": "Active",
+            "type": "remote",
+            "date": "08/09/2024"
+        }
+    ]
+}

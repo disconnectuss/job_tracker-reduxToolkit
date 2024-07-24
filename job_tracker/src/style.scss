@@ -30,7 +30,12 @@ header {
     }
   }
 }
-.list_section{
+.count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list_section {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   gap: 30px;

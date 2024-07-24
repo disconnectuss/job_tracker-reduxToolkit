@@ -8,7 +8,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "svgr": "svgr ./assets/icons -d ./src/assets/icons --icon --svg-props 'width=24,height=24'"
+    "svgr": "svgr ./assets/icons -d ./src/assets/icons --icon --svg-props 'width=24,height=24'",
+    "server": "json-server -w db.json -p 3030"
 
   },
   "dependencies": {
