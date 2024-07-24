@@ -3,37 +3,50 @@ import Location from "../assets/icons/Location";
 import Time from "../assets/icons/Time";
 import Date from "../assets/icons/Date";
 
+const JobCard = ({ job }) => {
+  // console.log(job);
+  const getClassname = () => {
+    switch (job.status) {
+      case "Active":
+        return "active";
+      case "Expired":
+        return "expired";
+      case "Promoted":
+        return "promoted";
 
-const JobCard = () => {
+      default:
+        return "default";
+    }
+  };
   return (
     <div className="card">
       <div className="head">
         <div className="letter">
-          <p>L</p>
+          <p>{job.company[0]}</p>
         </div>
         <div className="info">
-          <p>Web Developer</p>
-          <p>Emaartechs</p>
+          <p>{job.position}</p>
+          <p>{job.company}</p>
         </div>
       </div>
       <div className="body">
         <div className="field">
           <Location />
-          <p> İzmir/bayraklı </p>
+          <p> {job.location}</p>
         </div>
         <div className="field">
-          <Time/>
-          
-          <p> Full Time </p>
+          <Time />
+
+          <p>{job.type}</p>
         </div>
         <div className="field">
           <div className="field">
-            <Date/>
-            <p> 8/8/2024 </p>
+            <Date />
+            <p> {job.date}</p>
           </div>
         </div>
         <div className="status">
-          <span>Expired</span>
+          <span className={getClassname()}>{job.status}</span>
         </div>
       </div>
     </div>

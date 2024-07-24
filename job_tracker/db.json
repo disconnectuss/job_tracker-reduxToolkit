@@ -4,9 +4,10 @@
             "id": 345,
             "company": "BetaSoft",
             "location": "Copenhagen, Denmark",
-            "status": "Active",
+            "status": "Promoted",
             "type": "on-site",
-            "date": "12/09/2024"
+            "date": "12/09/2024",
+            "position": "Front-end Developer"
         },
         {
             "id": 346,
@@ -14,7 +15,8 @@
             "location": "Copenhagen, Denmark",
             "status": "Active",
             "type": "remote",
-            "date": "29/04/2024"
+            "date": "29/04/2024",
+            "position": "Back-end Developer"
         },
         {
             "id": 347,
@@ -22,7 +24,8 @@
             "location": "Goes, Netherlands",
             "status": "Expired",
             "type": "remote",
-            "date": "21/07/2024"
+            "date": "21/07/2024",
+            "position": "Full Stack Developer"
         },
         {
             "id": 348,
@@ -30,15 +33,17 @@
             "location": "Berlin, Germany",
             "status": "Active",
             "type": "on-site",
-            "date": "28/07/2024"
+            "date": "28/07/2024",
+            "position": "Mobile Developer"
         },
         {
             "id": 349,
             "company": "DevHub",
             "location": "Madrid, Spain",
-            "status": "Active",
+            "status": "Promoted",
             "type": "remote",
-            "date": "29/07/2024"
+            "date": "29/07/2024",
+            "position": "Front-end Developer"
         },
         {
             "id": 350,
@@ -46,7 +51,8 @@
             "location": "Goes, Netherlands",
             "status": "Expired",
             "type": "on-site",
-            "date": "12/06/2024"
+            "date": "12/06/2024",
+            "position": "Back-end Developer"
         },
         {
             "id": 351,
@@ -54,7 +60,8 @@
             "location": "Oslo, Norway",
             "status": "Active",
             "type": "on-site",
-            "date": "14/05/2024"
+            "date": "14/05/2024",
+            "position": "Full Stack Developer"
         },
         {
             "id": 352,
@@ -62,15 +69,17 @@
             "location": "Berlin, Germany",
             "status": "Expired",
             "type": "hybrid",
-            "date": "26/10/2024"
+            "date": "26/10/2024",
+            "position": "Mobile Developer"
         },
         {
             "id": 353,
             "company": "SoftWorks",
             "location": "Oslo, Norway",
-            "status": "Active",
+            "status": "Promoted",
             "type": "on-site",
-            "date": "07/03/2024"
+            "date": "07/03/2024",
+            "position": "Front-end Developer"
         },
         {
             "id": 354,
@@ -78,7 +87,8 @@
             "location": "Berlin, Germany",
             "status": "Active",
             "type": "remote",
-            "date": "20/04/2024"
+            "date": "20/04/2024",
+            "position": "Back-end Developer"
         },
         {
             "id": 355,
@@ -86,7 +96,8 @@
             "location": "Madrid, Spain",
             "status": "Expired",
             "type": "on-site",
-            "date": "09/09/2024"
+            "date": "09/09/2024",
+            "position": "Full Stack Developer"
         },
         {
             "id": 356,
@@ -94,7 +105,8 @@
             "location": "Paris, France",
             "status": "Active",
             "type": "remote",
-            "date": "31/07/2024"
+            "date": "31/07/2024",
+            "position": "Mobile Developer"
         },
         {
             "id": 357,
@@ -102,7 +114,8 @@
             "location": "Madrid, Spain",
             "status": "Active",
             "type": "remote",
-            "date": "06/10/2024"
+            "date": "06/10/2024",
+            "position": "Front-end Developer"
         },
         {
             "id": 358,
@@ -110,31 +123,35 @@
             "location": "Goes, Netherlands",
             "status": "Active",
             "type": "remote",
-            "date": "14/05/2024"
+            "date": "14/05/2024",
+            "position": "Back-end Developer"
         },
         {
             "id": 359,
             "company": "BetaSoft",
             "location": "Copenhagen, Denmark",
-            "status": "Active",
+            "status": "Expired",
             "type": "on-site",
-            "date": "16/04/2024"
+            "date": "16/04/2024",
+            "position": "Full Stack Developer"
         },
         {
             "id": 360,
             "company": "SoftWorks",
             "location": "Lisbon, Portugal",
-            "status": "Active",
+            "status": "Expired",
             "type": "hybrid",
-            "date": "06/06/2024"
+            "date": "06/06/2024",
+            "position": "Mobile Developer"
         },
         {
             "id": 361,
             "company": "Innovatech",
             "location": "Paris, France",
-            "status": "Active",
+            "status": "Promoted",
             "type": "remote",
-            "date": "28/06/2024"
+            "date": "28/06/2024",
+            "position": "Front-end Developer"
         },
         {
             "id": 362,
@@ -142,7 +159,8 @@
             "location": "Oslo, Norway",
             "status": "Active",
             "type": "hybrid",
-            "date": "19/07/2024"
+            "date": "19/07/2024",
+            "position": "Back-end Developer"
         },
         {
             "id": 363,
@@ -150,15 +168,17 @@
             "location": "Rome, Italy",
             "status": "Active",
             "type": "on-site",
-            "date": "09/09/2024"
+            "date": "09/09/2024",
+            "position": "Full Stack Developer"
         },
         {
             "id": 364,
             "company": "GammaCorp",
             "location": "Paris, France",
-            "status": "Active",
+            "status": "Promoted",
             "type": "remote",
-            "date": "08/09/2024"
+            "date": "08/09/2024",
+            "position": "Mobile Developer"
         }
     ]
 }

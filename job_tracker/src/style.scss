@@ -62,6 +62,7 @@ header {
     }
     .info {
       font-size: 20px;
+      color: rgb(180, 147, 218);
     }
   }
   .body {
@@ -78,9 +79,26 @@ header {
       }
     }
     .status {
-      padding: 10px 20px;
-      border-radius: 10px;
-      background-color: rgb(145, 145, 8);
+      .active {
+        background-color: rgba(10, 176, 55, 0.605);
+        padding: 10px 20px;
+        border-radius: 10px;
+      }
+      .expired {
+        background-color: rgb(187, 12, 12);
+        padding: 10px 20px;
+        border-radius: 10px;
+      }
+      .promoted {
+        background-color: rgb(145, 145, 8);
+        padding: 10px 20px;
+        border-radius: 10px;
+      }
+      .default {
+        background-color: rgb(12, 104, 175);
+        padding: 10px 20px;
+        border-radius: 10px;
+      }
     }
   }
 }
