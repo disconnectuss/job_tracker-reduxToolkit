@@ -4,18 +4,20 @@ import JobCard from "../components/JobCard";
 import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { setError, setJobs } from "../redux/jobSlice";
-import store from "../redux/store";
 
 const JobList = () => {
   const dispatch = useDispatch();
-  const state = useSelector((store) => store);
+  const jobs = useSelector((state) => state.jobs);
+  const initialized = useSelector((state) => state.initialized);
+  const isError = useSelector((state) => state.isError);
+
   useEffect(() => {
     axios
       .get("http://localhost:3030/jobs")
       .then((res) => dispatch(setJobs(res.data)))
       .catch((err) => dispatch(setError(err)));
-  }, []);
-  // console.log(jobs)
+  }, [dispatch]);
+
   return (
     <div>
       <Header />
@@ -23,10 +25,10 @@ const JobList = () => {
         You are viewing (5) out of (10) available jobs.{" "}
       </h3>
       <div className="list_section">
-        {!state.initialized && <p>Loading..</p>}
-        {state.initialized && !state.isError ? (
+        {!initialized && <p>Loading..</p>}
+        {initialized && !isError ? (
           <>
-            {state.jobs.map((job) => (
+            {jobs.map((job) => (
               <JobCard key={job.id} job={job} />
             ))}
           </>

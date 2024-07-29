@@ -7,9 +7,10 @@
 body {
   background-color: #242424;
   color: white;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-weight: 400;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
   min-height: 100vh;
+  font-size: large;
 }
 header {
   display: flex;
@@ -99,6 +100,52 @@ header {
         padding: 10px 20px;
         border-radius: 10px;
       }
+    }
+  }
+}
+.add-sec {
+  box-shadow: 0 22px 70px 4px rgba(0, 98, 128, 0.706);
+  max-width: 700px;
+  margin: 100px auto;
+  padding: 25px;
+}
+
+form {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+
+
+  div {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  div input,
+  div select {
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 4px;
+  }
+
+  div:last-child {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+  }
+  button {
+    padding: 10px 40px;
+    background: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms;
+
+    &:hover {
+      scale: 0.96;
+      box-shadow: 0 0 30px rgba(0, 113, 128, 0.743);
     }
   }
 }

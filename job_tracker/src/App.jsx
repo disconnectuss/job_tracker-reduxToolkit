@@ -9,7 +9,7 @@ function App() {
   <BrowserRouter>
   <Routes>
     <Route path="/" element={<JobList/>}/>
-    <Route path="./add_job" element={<AddJob/>}/>
+    <Route path="/add_job" element={<AddJob/>}/>
   </Routes>
   </BrowserRouter>
   );
