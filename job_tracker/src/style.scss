@@ -7,7 +7,7 @@
 body {
   background-color: #242424;
   color: white;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 600;
   min-height: 100vh;
   font-size: large;
@@ -102,6 +102,15 @@ header {
       }
     }
   }
+  .delete-btn {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
 }
 .add-sec {
   box-shadow: 0 22px 70px 4px rgba(0, 98, 128, 0.706);
@@ -116,11 +125,9 @@ form {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 
-
   div {
     display: flex;
     flex-direction: column;
-    
   }
 
   div input,
@@ -147,5 +154,12 @@ form {
       scale: 0.96;
       box-shadow: 0 0 30px rgba(0, 113, 128, 0.743);
     }
+  }
+}
+.filter-sec {
+  @extend .add-sec;
+  max-width: 1000px;
+  .filter_btn {
+    align-items: end;
   }
 }

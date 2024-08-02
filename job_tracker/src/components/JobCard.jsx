@@ -2,8 +2,19 @@ import React from "react";
 import Location from "../assets/icons/Location";
 import Time from "../assets/icons/Time";
 import Date from "../assets/icons/Date";
+import Delete from "../assets/icons/Delete";
+import { useDispatch } from "react-redux";
+import { deleteJob } from "../redux/jobSlice";
+import { toast } from "react-toastify";
 
 const JobCard = ({ job }) => {
+  const dispatch = useDispatch();
+  const handleDelete = (id) => {
+    console.log("delete action");
+    dispatch(deleteJob(id));
+    toast.success("Job deleted successfully!");
+  };
+
   // console.log(job);
   const getClassname = () => {
     switch (job.status) {
@@ -27,6 +38,11 @@ const JobCard = ({ job }) => {
         <div className="info">
           <p>{job.position}</p>
           <p>{job.company}</p>
+        </div>
+        <div className="btn-container">
+          <button className="delete-btn" onClick={() => handleDelete(job.id)}>
+            <Delete className="btn" />
+          </button>
         </div>
       </div>
       <div className="body">
