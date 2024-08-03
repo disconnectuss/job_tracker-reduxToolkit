@@ -16,99 +16,47 @@ Job Tracker is a simple React application for tracking job applications. It leve
 
    ```sh
    git clone https://github.com/yourusername/job_tracker.git
-Navigate to the project directory:
 
-sh
-Copy code
-cd job_tracker
-Install the dependencies:
+2. Navigate to the project directory:
 
-sh
-Copy code
+ cd job_tracker
+
+3.Install dependencies:
+
 npm install
-Scripts
-dev: Starts the development server using Vite.
 
-sh
-Copy code
+3.Scripts
+dev: Start the development server.
+
 npm run dev
-build: Builds the project for production.
 
-sh
-Copy code
+4. build: Build the project for production.
+
 npm run build
-lint: Runs ESLint to lint the codebase.
 
-sh
-Copy code
+5. lint: Lint the codebase.
+
 npm run lint
-preview: Previews the production build locally.
 
-sh
-Copy code
+6. preview: Preview the production build locally.
+
 npm run preview
-svgr: Converts SVG icons to React components.
 
-sh
-Copy code
+7. vgr: Convert SVG icons to React components.
+
 npm run svgr
-server: Starts the JSON Server for mocking a backend.
 
-sh
-Copy code
+8. server: Start the JSON Server.
+
 npm run server
-Dependencies
-react: A JavaScript library for building user interfaces.
-react-dom: This package serves as the entry point of the DOM-related rendering paths.
-uuid: For generating unique identifiers.
+
+9. Dependencies
+react, react-dom, uuid
+
 DevDependencies
-@types/react: TypeScript definitions for React.
-@types/react-dom: TypeScript definitions for React DOM.
-@vitejs/plugin-react: Vite plugin for React.
-eslint: A tool for identifying and reporting on patterns in JavaScript.
-eslint-plugin-react: React specific linting rules for ESLint.
-eslint-plugin-react-hooks: ESLint rules for React hooks.
-eslint-plugin-react-refresh: ESLint plugin for React Refresh.
-vite: A build tool that aims to provide a faster and leaner development experience for modern web projects.
-Usage
-Start the development server:
 
-sh
-Copy code
-npm run dev
-This will start the Vite development server and open your project in the browser.
+@types/react, @types/react-dom, @vitejs/plugin-react, eslint, eslint-plugin-react, eslint-plugin-react-hooks, eslint-plugin-react-refresh, vite
 
-To start the JSON Server for the backend, run:
-
-sh
-Copy code
-npm run server
-This will run the JSON Server on http://localhost:3030.
-
-To build the project for production, run:
-
-sh
-Copy code
-npm run build
-The output will be in the dist directory.
-
-To preview the production build locally, run:
-
-sh
-Copy code
-npm run preview
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
-
-Happy coding!
-
-vbnet
-Copy code
-
-This README file provides an overview of your project, how to install it, the available scripts, dependencies, and usage instructions. Feel free to customize it further based on your project's specifics.
 
 
 
