@@ -1,64 +1,37 @@
-# Job Tracker
+# Job Tracker Web App
 
-Job Tracker is a simple React application for tracking job applications. It leverages modern tools and frameworks like Vite, React, and JSON Server for an efficient development workflow.
+## Overview
 
-## Table of Contents
+This is a simple job tracker web application built using Redux Toolkit for state management and a JSON server for data persistence. The app allows users to filter, add, and delete job listings. SVGR is used for handling icons.
 
-- [Installation](#installation)
-- [Scripts](#scripts)
-- [Dependencies](#dependencies)
-- [DevDependencies](#devdependencies)
-- [Usage](#usage)
+## Features
+
+- **Job Filtering:** Easily filter job listings based on different criteria.
+- **Add Jobs:** Add new job listings to the tracker.
+- **Delete Jobs:** Remove job listings from the tracker.
+- **Icons with SVGR:** Enhanced UI with SVG icons.
+
+## Tech Stack
+
+- **Frontend:**
+  - React
+  - Redux Toolkit
+  - SVGR for icons
+
+- **Backend:**
+  - JSON Server
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository:**
 
-   ```sh
-   git clone https://github.com/yourusername/job_tracker.git
+   ```bash
+   git clone https://github.com/yourusername/job-tracker.git
+   cd job-tracker
+Contributing
+Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-2. Navigate to the project directory:
+License
+This project is licensed under the MIT License. See the LICENSE file for more details.
 
- cd job_tracker
-
-3.Install dependencies:
-
-npm install
-
-3.Scripts
-dev: Start the development server.
-
-npm run dev
-
-4. build: Build the project for production.
-
-npm run build
-
-5. lint: Lint the codebase.
-
-npm run lint
-
-6. preview: Preview the production build locally.
-
-npm run preview
-
-7. vgr: Convert SVG icons to React components.
-
-npm run svgr
-
-8. server: Start the JSON Server.
-
-npm run server
-
-9. Dependencies
-react, react-dom, uuid
-
-DevDependencies
-
-@types/react, @types/react-dom, @vitejs/plugin-react, eslint, eslint-plugin-react, eslint-plugin-react-hooks, eslint-plugin-react-refresh, vite
-
-
-
-
-
-
+Customize this template with your specific project details and ensure the file paths and commands match your project's structure.
