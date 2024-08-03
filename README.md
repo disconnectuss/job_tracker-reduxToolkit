@@ -26,8 +26,8 @@ This is a simple job tracker web application built using Redux Toolkit for state
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/job-tracker.git
-   cd job-tracker
+   git@github.com:disconnectuss/job_tracker-reduxToolkit.git
+   
 Contributing
 Feel free to fork this repository and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
