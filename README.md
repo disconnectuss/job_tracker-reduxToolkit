@@ -4,6 +4,9 @@
 
 This is a simple job tracker web application built using Redux Toolkit for state management and a JSON server for data persistence. The app allows users to filter, add, and delete job listings. SVGR is used for handling icons.
 
+## Preview
+https://github.com/user-attachments/assets/2bb3a8d1-0d8e-4dcc-9fc8-988563ad8ad3
+
 ## Features
 
 - **Job Filtering:** Easily filter job listings based on different criteria.
